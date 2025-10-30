@@ -91,10 +91,10 @@ const Index = () => {
       <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
         <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-secondary opacity-50" />
         <div className="absolute inset-0" style={{
-          backgroundImage: `url('https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/a3496933-94f7-471a-9e86-126f5999ad4b.jpg')`,
+          backgroundImage: `url('https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/5f66132c-b5ef-4119-8c8c-f1322dcde594.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          opacity: 0.1
+          opacity: 0.15
         }} />
         
         <div className="container mx-auto px-4 relative z-10">
