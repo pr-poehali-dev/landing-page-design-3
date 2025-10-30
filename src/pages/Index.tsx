@@ -99,7 +99,7 @@ const Index = () => {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h1 className="text-6xl md:text-8xl font-bold mb-6 text-balance">
+            <h1 className="md:text-8xl mb-6 text-balance text-5xl text-center font-extralight">
               Создаю сайты,<br />которые <span className="text-primary neon-text-pink animate-pulse-glow font-bold text-4xl">вдохновляют</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-12 animate-fade-in-up">
