@@ -32,19 +32,34 @@ const Index = () => {
 
   const portfolio = [
     {
-      title: "Минималистичный сайт",
-      category: "Веб-дизайн",
-      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/098171f4-107e-47ea-ad4f-15eeb58b1e93.jpg"
+      title: "Корпоративный портал",
+      category: "Веб-разработка",
+      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/4703c41f-32ce-4429-b375-7710585e9239.jpg"
     },
     {
       title: "Мобильное приложение",
-      category: "UI/UX",
-      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/d901fe04-c833-457a-9bd0-f87d73f54f31.jpg"
+      category: "UI/UX дизайн",
+      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/13410967-b00d-4697-bbb7-bce16fe298f6.jpg"
     },
     {
-      title: "Премиум интернет-магазин",
+      title: "Интернет-магазин",
       category: "E-commerce",
-      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/93e5d88c-cc76-4d5f-b0b9-ff8e4d89964c.jpg"
+      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/86b08866-f52e-49a1-8699-dbc5d0f771a0.jpg"
+    },
+    {
+      title: "Аналитическая панель",
+      category: "Дашборд",
+      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/84b59c20-0a1e-4fe5-a02f-48eaa0ee45c2.jpg"
+    },
+    {
+      title: "Креативное портфолио",
+      category: "Персональный сайт",
+      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/8d6eec8c-572b-4928-8a00-2be6efe0a69a.jpg"
+    },
+    {
+      title: "Бизнес-платформа",
+      category: "Корпоративный сайт",
+      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/6efe0e36-9470-4067-9001-e23b3cd9ed6e.jpg"
     }
   ];
 
