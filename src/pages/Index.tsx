@@ -32,19 +32,19 @@ const Index = () => {
 
   const portfolio = [
     {
-      title: "Корпоративный сайт",
+      title: "Минималистичный сайт",
       category: "Веб-дизайн",
-      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/2b6582f6-5981-4e53-a874-d09c4d75f1c3.jpg"
+      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/098171f4-107e-47ea-ad4f-15eeb58b1e93.jpg"
     },
     {
-      title: "Премиум бренд",
-      category: "Лендинг",
-      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/8902bcc0-8da2-4b34-ad9d-309239f87dda.jpg"
+      title: "Мобильное приложение",
+      category: "UI/UX",
+      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/d901fe04-c833-457a-9bd0-f87d73f54f31.jpg"
     },
     {
-      title: "E-commerce",
-      category: "Интернет-магазин",
-      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/a3496933-94f7-471a-9e86-126f5999ad4b.jpg"
+      title: "Премиум интернет-магазин",
+      category: "E-commerce",
+      image: "https://cdn.poehali.dev/projects/2994505c-e537-46e4-98ad-975907b818d8/files/93e5d88c-cc76-4d5f-b0b9-ff8e4d89964c.jpg"
     }
   ];
 
