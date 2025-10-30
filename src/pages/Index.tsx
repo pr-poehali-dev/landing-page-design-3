@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
+import { useState } from "react";
 
 const Index = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   const services = [
     {
       icon: "Layout",
@@ -47,6 +50,7 @@ const Index = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     element?.scrollIntoView({ behavior: 'smooth' });
+    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -62,7 +66,23 @@ const Index = () => {
               <button onClick={() => scrollToSection('portfolio')} className="text-sm hover:text-primary transition-colors">Портфолио</button>
               <button onClick={() => scrollToSection('contact')} className="text-sm hover:text-primary transition-colors">Контакты</button>
             </div>
+            <button 
+              className="md:hidden p-2 hover:bg-secondary/50 rounded-lg transition-colors"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label="Меню"
+            >
+              <Icon name={isMobileMenuOpen ? "X" : "Menu"} size={24} className="text-primary" />
+            </button>
           </div>
+          {isMobileMenuOpen && (
+            <div className="md:hidden mt-4 pb-4 flex flex-col gap-4 animate-fade-in">
+              <button onClick={() => scrollToSection('hero')} className="text-left py-2 hover:text-primary transition-colors">Главная</button>
+              <button onClick={() => scrollToSection('about')} className="text-left py-2 hover:text-primary transition-colors">Обо мне</button>
+              <button onClick={() => scrollToSection('services')} className="text-left py-2 hover:text-primary transition-colors">Услуги</button>
+              <button onClick={() => scrollToSection('portfolio')} className="text-left py-2 hover:text-primary transition-colors">Портфолио</button>
+              <button onClick={() => scrollToSection('contact')} className="text-left py-2 hover:text-primary transition-colors">Контакты</button>
+            </div>
+          )}
         </div>
       </nav>
 
