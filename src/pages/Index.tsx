@@ -99,8 +99,8 @@ const Index = () => {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h1 className="md:text-8xl mb-6 text-balance text-center text-5xl font-medium">
-              Создаю сайты,<br />которые <span className="text-primary neon-text-pink animate-pulse-glow font-bold text-4xl">вдохновляют</span>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl mb-6 text-balance text-center font-bold leading-tight">
+              Создаю сайты,<br />которые <span className="text-primary neon-text-pink animate-pulse-glow">вдохновляют</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-12 animate-fade-in-up">
               Уникальный веб-дизайн для ваших потребностей.<br />Высокое качество и индивидуальный подход.
